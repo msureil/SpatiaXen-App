@@ -39,7 +39,7 @@ No Python or setup required.
 > Unsigned installers show a first-run security prompt — this is expected for free
 > academic software and safe to allow.
 
-### 🐧 Linux (Ubuntu)
+### Linux (Ubuntu)
 1. Download **[SpatiaXen](https://github.com/msureil/SpatiaXen-App/releases/latest/download/SpatiaXen)**.
 2. Make it executable and run it:
    ```bash
