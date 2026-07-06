@@ -14,7 +14,7 @@ Michigan State University.
 
 ---
 
-## ⬇️ Download & install
+## Download & install
 
 Get the latest installer from the **[Releases page](https://github.com/msureil/SpatiaXen-App/releases/latest)**.
 No Python or setup required.
@@ -30,7 +30,7 @@ No Python or setup required.
      ```
    Then open it normally.
 
-### 🪟 Windows (64-bit)
+### Windows (64-bit)
 1. Download **[SpatiaXen.exe](https://github.com/msureil/SpatiaXen-App/releases/latest/download/SpatiaXen.exe)**.
 2. Double-click it. First launch takes ~10–30 s (it unpacks itself).
 3. If **"Windows protected your PC"** appears: click **More info → Run anyway**
@@ -39,9 +39,15 @@ No Python or setup required.
 > Unsigned installers show a first-run security prompt — this is expected for free
 > academic software and safe to allow.
 
+### 🐧 Linux (Ubuntu)
+1. Download **[SpatiaXen](https://github.com/msureil/SpatiaXen-App/releases/latest/download/SpatiaXen)**.
+2. Make it executable and run it:
+   ```bash
+   chmod +x SpatiaXen
+   ./SpatiaXen
 ---
 
-## 🧪 Other ways to run it
+## Other ways to run it
 
 **Python package (developers):**
 ```bash
@@ -93,7 +99,7 @@ If SpatiaXen contributes to your work, please cite:
 > [doi:10.64898/2026.03.12.711361](https://www.biorxiv.org/content/10.64898/2026.03.12.711361v1)
 
 ## Authors
-- **Anirban Chakraborty** — Developer
+- **Anirban Chakraborty** — Developer (PhD Student, ECE, MSU)
 - **Dr. Erin Purcell** and **Dr. Mark Reimers** — Project Coordinators
 
 Michigan State University · [reil.iq.msu.edu](https://reil.iq.msu.edu) ·
