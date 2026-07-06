@@ -47,6 +47,7 @@ No Python or setup required.
 ```bash
 pip install spatiaxen        # then run:  spatiaxen
 # with GPU cell segmentation:  pip install spatiaxen[full]
+# python -m spatiaxen works too
 ```
 
 **Server, browser-accessible (Docker):**
