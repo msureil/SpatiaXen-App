@@ -3,11 +3,11 @@
 **An open-source interactive platform for cell-type-resolved spatial transcriptomics
 analysis of 10x Genomics Xenium data.**
 
-SpatiaXen works directly from raw transcript coordinates: it builds kernel-density
+SpatiaXen works directly from raw transcript coordinates: it builds a kernel-density
 gene-expression maps, infers cell types from marker genes, and quantifies
-cell-type-specific expression, distance gradients, excess expression, and
-cross-sample statistics over user-defined regions — a complement to
-segmentation-based pipelines that generalises beyond any fixed experimental design.
+cell-type-specific expression, distance gradients, gene expression and density, and
+cross-sample statistics over user-defined regions. It also offers a complement to
+segmentation-based pipelines that generalise beyond any fixed experimental design.
 
 Developed in the **Regenerative Engineering and Innovation Laboratory (REIL)**,
 Michigan State University.
@@ -19,7 +19,7 @@ Michigan State University.
 Get the latest installer from the **[Releases page](https://github.com/msureil/SpatiaXen-App/releases/latest)**.
 No Python or setup required.
 
-### 🍎 macOS (Apple Silicon)
+### macOS (Apple Silicon)
 1. Download **[SpatiaXen.dmg](https://github.com/msureil/SpatiaXen-App/releases/latest/download/SpatiaXen.dmg)**.
 2. Open it and drag **SpatiaXen** into **Applications**.
 3. **First open (one time):** right-click **SpatiaXen** → **Open** → **Open**.
@@ -67,7 +67,7 @@ apptainer run --nv --bind /path/to/data:/data spatiaxen.sif
 ---
 
 ## Using SpatiaXen
-- On first launch you accept the terms and register once (name, affiliation, email).
+- On first launch, you accept the terms and register once (name, affiliation, email).
 - Work left-to-right through the phases (Regions → Markers → Density → Nuclei →
   Cell Types → Expression → Statistics → Segmentation → Batch). Each tab has a
   **"ℹ How to use this tab"** button.
