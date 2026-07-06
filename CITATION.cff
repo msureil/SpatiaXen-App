@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use SpatiaXen, please cite the paper below."
+title: "SpatiaXen: an interactive platform for cell-type-resolved spatial transcriptomics analysis of Xenium data"
+version: "2.0.0"
+date-released: "2026-07-05"
+license: MIT
+repository-code: "https://github.com/YOUR-USERNAME/SpatiaXen"
+url: "https://reil.iq.msu.edu"
+authors:
+  - family-names: Chakraborty
+    given-names: Anirban
+    affiliation: "Michigan State University"
+    email: chakra96@msu.edu
+  - family-names: Purcell
+    given-names: Erin
+    affiliation: "Michigan State University"
+  - family-names: Reimers
+    given-names: Mark
+    affiliation: "Michigan State University"
+preferred-citation:
+  type: article
+  title: "A systematic analysis of brain tissue response to microelectrode material and size with single-cell spatial transcriptomics"
+  year: 2026
+  journal: "bioRxiv"
+  doi: "10.64898/2026.03.12.711361"
+  authors:
+    - family-names: Thompson
+      given-names: Cort
+    - family-names: Chakraborty
+      given-names: Anirban
+    - family-names: Wade-Kleyn
+      given-names: Lauren
+    - family-names: Reimers
+      given-names: Mark
+    - family-names: Purcell
+      given-names: Erin
